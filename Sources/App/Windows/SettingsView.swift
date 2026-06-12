@@ -82,7 +82,7 @@ private struct TranscriptionSettingsTab: View {
             } header: {
                 Text("Speech-to-text engine")
             } footer: {
-                Text("Models download on the next dictation, then run fully offline. Switching applies immediately. Custom vocabulary phrases only bias recognition on Whisper; replacement rules work on both.")
+                Text("Switching applies immediately. Custom vocabulary phrases only bias recognition on Whisper; replacement rules work on both.")
                     .font(.callout)
                     .foregroundStyle(.secondary)
             }
@@ -109,6 +109,12 @@ private struct TranscriptionSettingsTab: View {
                         .font(.callout)
                         .foregroundStyle(.secondary)
                 }
+            }
+
+            Section {
+                SpeechModelRow(context: .settings)
+            } header: {
+                Text("Model download")
             }
         }
         .formStyle(.grouped)
