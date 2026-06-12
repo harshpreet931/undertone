@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!--
+    Undertone mark.
+    A whisper: waveform bars swelling and fading, strictly monochrome.
+    The tallest bar breaks into a floating dot — a microphone and a text
+    cursor at once: speak, and text lands at the insertion point.
+    Squircle inset/radius follow the macOS app-icon grid (824/1024, r≈186).
+  -->
+  <rect x="100" y="100" width="824" height="824" rx="186" fill="#000000"/>
+  <g fill="#ffffff">
+    <rect x="236" y="462" width="48" height="100" rx="24"/>
+    <rect x="320" y="417" width="48" height="190" rx="24"/>
+    <rect x="404" y="362" width="48" height="300" rx="24"/>
+    <rect x="488" y="297" width="48" height="358" rx="24"/>
+    <circle cx="512" cy="703" r="24"/>
+    <rect x="572" y="362" width="48" height="300" rx="24"/>
+    <rect x="656" y="417" width="48" height="190" rx="24"/>
+    <rect x="740" y="462" width="48" height="100" rx="24"/>
+  </g>
+</svg>

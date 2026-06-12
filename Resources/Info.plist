@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>Undertone</string>
+	<key>CFBundleDisplayName</key>
+	<string>Undertone</string>
+	<key>CFBundleIdentifier</key>
+	<string>app.undertone</string>
+	<key>CFBundleExecutable</key>
+	<string>Undertone</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.4</string>
+	<!-- Menu-bar agent app: no Dock icon (ARCHITECTURE.md §2) -->
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Undertone records your voice to transcribe it on-device. Audio never leaves this Mac.</string>
+	<key>NSAudioCaptureUsageDescription</key>
+	<string>Undertone captures system audio to transcribe meetings on-device.</string>
+	<key>NSInputMonitoringUsageDescription</key>
+	<string>Needed only for the optional hold-a-modifier-key push-to-talk trigger.</string>
+</dict>
+</plist>
