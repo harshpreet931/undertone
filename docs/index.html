@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Undertone — Local voice dictation for macOS</title>
+  <meta name="description" content="Press a hotkey, speak, and punctuated text appears at your cursor. Fully on-device transcription on the Neural Engine. No cloud, no subscription, audio never leaves your Mac.">
+
+  <meta property="og:title" content="Undertone — Local voice dictation for macOS">
+  <meta property="og:description" content="Press a hotkey, speak, and punctuated text appears at your cursor. Fully on-device. No cloud, no subscription.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="icon.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Undertone — Local voice dictation for macOS">
+  <meta name="twitter:description" content="Press a hotkey, speak, and punctuated text appears at your cursor. Fully on-device. No cloud.">
+  <meta name="twitter:image" content="icon.png">
+
+  <link rel="icon" href="logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="glow" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="nav-brand" href="#">
+      <img src="logo.svg" width="28" height="28" alt="">
+      <span>Undertone</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#how">How it works</a>
+      <a href="#privacy">Privacy</a>
+      <a class="btn btn-ghost" href="https://github.com/harshpreet931/undertone" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        Star
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <a class="pill anim" href="https://github.com/harshpreet931/undertone" target="_blank" rel="noopener" style="--i:0">
+          <span class="pill-dot"></span>
+          Open source · MIT · runs 100% on your Mac
+        </a>
+        <h1 class="anim" style="--i:1">Speak.<br>It just appears.</h1>
+        <p class="hero-sub anim" style="--i:2">
+          Press a hotkey anywhere on macOS, talk, and punctuated text lands at your
+          cursor — transcribed on the Neural Engine in real time. No cloud. No
+          subscription. Your voice never leaves the machine.
+        </p>
+        <div class="hero-cta anim" style="--i:3">
+          <a class="btn btn-primary" href="https://github.com/harshpreet931/undertone" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+            View on GitHub
+          </a>
+          <a class="btn btn-secondary" href="#how">See how it works</a>
+        </div>
+        <div class="hero-meta anim" style="--i:4">
+          <span><strong>~110×</strong> realtime</span>
+          <span class="dot">·</span>
+          <span><strong>0</strong> bytes uploaded</span>
+          <span class="dot">·</span>
+          <span><strong>Apple Silicon</strong></span>
+        </div>
+      </div>
+
+      <div class="hero-demo anim" style="--i:5" aria-hidden="true">
+        <div class="hud">
+          <span class="hud-rec"></span>
+          <div class="wave">
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+          </div>
+          <span class="hud-timer">0:04</span>
+        </div>
+        <div class="hud-caption">“send the q3 numbers to priya by friday”</div>
+      </div>
+    </section>
+
+    <section class="logos">
+      <span>Built on best-in-class on-device AI</span>
+      <div class="logos-row">
+        <span class="chip">Parakeet TDT v3</span>
+        <span class="chip">WhisperKit</span>
+        <span class="chip">Core ML · Neural Engine</span>
+        <span class="chip">Ollama · LM Studio</span>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="section-head">
+        <h2 class="reveal">Everything a dictation app should be.<br>Nothing it shouldn't.</h2>
+        <p class="reveal">No account. No upload. No monthly fee. Just your voice, turned into text, instantly, anywhere you can type.</p>
+      </div>
+
+      <div class="grid">
+        <article class="card reveal feature-lg">
+          <div class="card-icon">🎙️</div>
+          <h3>Dictate anywhere</h3>
+          <p>Tap ⌘⇧Space to start and stop, or hold it like a walkie-talkie. Text is inserted into whatever app has focus — editor, browser, terminal, Slack. Esc cancels.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">⚡</div>
+          <h3>Real-time on the Neural Engine</h3>
+          <p>Parakeet TDT v3 runs at ~110× realtime with punctuation and capitalization built in. Words appear in a live HUD as you speak.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">🔒</div>
+          <h3>Truly local</h3>
+          <p>Audio is captured, transcribed, and inserted entirely on-device. Nothing is uploaded, logged, or phoned home. Ever.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">✨</div>
+          <h3>AI rewrite modes</h3>
+          <p>Turn rambling speech into a clean message, a professional email, bullet notes, or a precise coding-agent prompt — via any local LLM.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">🧠</div>
+          <h3>Per-app & custom vocab</h3>
+          <p>Auto-switch modes by frontmost app, and teach it the names and jargon you use so “Juspay” never becomes “just pay”.</p>
+        </article>
+        <article class="card reveal feature-lg">
+          <div class="card-icon">📊</div>
+          <h3>History & stats that stay yours</h3>
+          <p>Every dictation is searchable on your Mac, with words dictated, speaking WPM, and time saved versus typing — stored in a local database, never the cloud.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="how" class="how">
+      <div class="section-head">
+        <h2 class="reveal">Three keys to text.</h2>
+        <p class="reveal">From silence to inserted text in under a second.</p>
+      </div>
+      <div class="steps">
+        <div class="step reveal" style="--i:0">
+          <div class="step-num">1</div>
+          <h3>Press</h3>
+          <p>Hit ⌘⇧Space from any app. A floating glass HUD appears with a live waveform.</p>
+        </div>
+        <div class="step-line reveal" aria-hidden="true"></div>
+        <div class="step reveal" style="--i:1">
+          <div class="step-num">2</div>
+          <h3>Speak</h3>
+          <p>Talk naturally. The transcript forms in real time, on-device, as you go.</p>
+        </div>
+        <div class="step-line reveal" aria-hidden="true"></div>
+        <div class="step reveal" style="--i:2">
+          <div class="step-num">3</div>
+          <h3>Done</h3>
+          <p>Release. Clean, punctuated text is pasted at your cursor. Back to work.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="privacy" class="privacy">
+      <div class="privacy-card reveal">
+        <div class="privacy-badge">100% on-device</div>
+        <h2>Your voice is not a product.</h2>
+        <p>
+          Cloud dictation tools stream your microphone to someone else's servers.
+          Undertone doesn't have a server. The model runs on your Neural Engine,
+          the transcript is written by your Mac, and the history lives in a local
+          database only you can read. It works on a plane, in airplane mode, behind
+          the strictest firewall.
+        </p>
+        <a class="btn btn-primary" href="https://github.com/harshpreet931/undertone" target="_blank" rel="noopener">Read the source →</a>
+      </div>
+    </section>
+
+    <section class="install">
+      <div class="section-head">
+        <h2 class="reveal">Up and running in a minute.</h2>
+        <p class="reveal">Apple Silicon Mac on macOS 14.4+. Xcode command-line tools to build.</p>
+      </div>
+      <div class="terminal reveal">
+        <div class="terminal-bar">
+          <span></span><span></span><span></span>
+          <em>zsh — undertone</em>
+        </div>
+        <pre class="terminal-body"><code><span class="c">git clone https://github.com/harshpreet931/undertone.git</span>
+<span class="c">cd undertone</span>
+<span class="c">make app</span>                                 <span class="m"># build + sign the .app</span>
+<span class="c">cp -R dist/Undertone.app /Applications</span>   <span class="m"># install</span>
+<span class="c">open /Applications/Undertone.app</span>         <span class="m"># 🎙️ menu bar</span></code></pre>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="cta-inner reveal">
+        <img src="logo.svg" width="64" height="64" alt="">
+        <h2>Stop typing what you could just say.</h2>
+        <div class="hero-cta">
+          <a class="btn btn-primary btn-lg" href="https://github.com/harshpreet931/undertone" target="_blank" rel="noopener">⭐ Star on GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="logo.svg" width="22" height="22" alt="">
+        <span>Undertone</span>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/harshpreet931/undertone" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://github.com/harshpreet931/undertone/blob/main/ARCHITECTURE.md" target="_blank" rel="noopener">Architecture</a>
+        <a href="https://github.com/harshpreet931/undertone/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a>
+      </div>
+      <p class="footer-fine">Runs entirely on your Mac. Built with Swift, Core ML, and a refusal to upload your voice.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
